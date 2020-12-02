@@ -1,0 +1,88 @@
+@charset "utf-8";
+html {
+  /* font-size: 14px; */
+}
+
+/* 覆盖element-ui 的部分通用样式 */
+.el-divider--horizontal {
+  margin: 10px 0;
+}
+
+.el-card__body {
+  padding: 10px;
+}
+
+/* 招采分析项目通用自建样式 */
+.zc-chart-container {
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.zc-card-shadow {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.04);
+}
+
+.zc-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.zc-field {
+  color: #b3b3b3;
+  text-align: right;
+}
+.zc-conditional {
+  padding: 10px;
+}
+
+.zc-org-svg {
+  float: right;
+}
+
+.zc-row1 {
+  font-size: 20px;
+  line-height: 33.5px;
+}
+
+.zc-mt-20 {
+  margin-top: 20px;
+}
+
+.zc-mb-20 {
+  margin-bottom: 20px;
+}
+
+.zc-mb-10 {
+  margin-bottom: 10px;
+}
+
+.zc-mt-10 {
+  margin-top: 10px;
+}
+
+.zc-wth-100 {
+  width: 100px;
+}
+
+.zc-wth-200 {
+  width: 200px;
+}
+
+.zc-wth-300 {
+  width: 300px;
+}
+/* 表格斑马线颜色 */
+.el-table__row--striped td {
+  background-color: #fafcff !important;
+}
+.el-form-item {
+ margin-bottom: 10px;
+}
+
+/* 超出省略 */
+.zc-table-span {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
